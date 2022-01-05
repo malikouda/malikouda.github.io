@@ -1,4 +1,9 @@
 @import 'normalize.css';
-@import 'base/_global.css';
 @import 'base/_variables.css';
-@import 'modules/_header.css';
+@import 'base/_global.css';
+@import 'base/_mixins.css';
+@import 'modules/_intro.css';
+@import 'modules/_section.css';
+@import 'modules/_row.css';
+@import 'modules/_wrapper.css';
+@import 'modules/_footer.css';

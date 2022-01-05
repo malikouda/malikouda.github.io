@@ -2,9 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+.body--dark {
   font-family: 'Helvetica', sans-serif;
-  color: #333;
+  color: $light;
+  background-color: $dark;
 }
 
 img {
