@@ -3,9 +3,15 @@ html {
 }
 
 .body--dark {
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Open Sans";
   color: $light;
   background-color: $dark;
+}
+
+.body--light {
+  font-family: "Open Sans";
+  color: $dark;
+  background-color: $light;
 }
 
 img {

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i);
 @import 'normalize.css';
 @import 'base/_variables.css';
 @import 'base/_global.css';
@@ -7,3 +8,5 @@
 @import 'modules/_row.css';
 @import 'modules/_wrapper.css';
 @import 'modules/_footer.css';
+@import 'modules/_link.css';
+@import 'modules/_icon.css';

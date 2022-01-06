@@ -10,23 +10,32 @@
 
 <body class='body--dark'>
 
-    <section class='intro section' id='intro'>
+    <section id='intro' class='intro section'>
         <div class="wrapper">
             <div class='row row--gutters'>
-                <div class='row__medium-4'>
-                    <img src='assets/images/me-1.jpg' class='intro__photo'>
+                <div class='row__small-4'>
+                    <img src='assets/images/me-1.jpg' class=' intro__photo' alt="Picture of me">
                 </div>
-                <div class='row__medium-8 intro__text'>
-                    <h1>Hello.</h1>
-                    <h2>I'm Malik Ouda.</h2>
-                    <p>
-                        Incoming Data Engineer at H-E-B. M.S. Information Technology Class of 2021 at the University of
-                        Texas at
-                        Austin.
+                <div class='row__small-8 intro__text'>
+                    <h1 class="intro__title">Hello.</h1>
+                    <h2 class="intro__subtitle">I'm Malik Ouda.</h2>
+                    <p class="intro__blurb">
+                        I'm a Software Engineer based in Austin, Texas.
                     </p>
-                    <a target='_blank' rel='noreferrer' href='https://github.com/malikouda'>GitHub</a>
-                    <a target='_blank' rel='noreferrer' href='https://linkedin.com/in/malikouda'>LinkedIn</a>
-                    <a target='_blank' rel='noreferrer' href='mailto:malikouda@utexas.edu'>Email</a>
+                    <div id="links">
+                        <label class="intro__links-label"><small>My Links</small></label>
+                        <div>
+                            <a target='_blank' rel='noreferrer' href='https://github.com/malikouda'
+                                class="link link__icon"><img src="assets/images/icons/github.svg"
+                                    class="icon icon--white" alt="GitHub link"></a>
+                            <a target='_blank' rel='noreferrer' href='https://linkedin.com/in/malikouda'
+                                class="link link__icon"><img src=" assets/images/icons/linkedin.svg"
+                                    class="icon icon--white" alt="LinkedIn link"></a>
+                            <a target='_blank' rel='noreferrer' href='mailto:malikouda@utexas.edu'
+                                class="link link__icon"><img src="assets/images/icons/email.svg"
+                                    class="icon icon--white" alt="Email link"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -36,22 +45,22 @@
         <div class='wrapper'>
             <h3>About Me</h3>
             <p>
-                Passionate about technology, I enjoy seeking out elegant solutions to technical problems. From making
-                games
-                in Unity to building machine learning models in Python, I am always tech-focused inside and out of the
-                classroom and workspace. That passion for technology drives me to continuously seek out new technologies
-                to
-                learn and to explore the depths of the ones I already use.
+                Passionate about technology, computer science, and design, I enjoy seeking out creative solutions to
+                technical problems. From building full-stack applications to making games in Unity, I am
+                tech-focused in and out of the workspace. I'm
+                a
+                knowledge seeker and a fast-learner and my passion for technology continuously drives me to seek out
+                opportunities to
+                learn and grow as a developer.
             </p>
             <p>
-                In May 2020, I graduated from the University of Texas at Austin with a B.S. in Arts and Entertainment
-                Technologies. After finding a passion for working with data, I decided to pursue my M.S. in Information
-                Technology and Management at UT Austin, where I am learning how to form technical solutions to business
-                problems. I am due to graduate May 2021.
+                Currently, I work as a Software Engineer at H-E-B here in Austin, Texas, where I work for our Data
+                Solutions team building services to serve the data engineering teams.
             </p>
             <p>
-                Outside of the classroom, some of my hobbies include playing strategy board games, playing and building
-                video games, running, and hiking.
+                Outside of work, you'll find me playing strategy board games, catching a movie at the Alamo
+                Drafthouse, watching Austin FC play at Q2 Stadium, playing and building
+                video games, running, hiking, and playing soccer.
             </p>
         </div>
     </section>
@@ -61,57 +70,15 @@
             <h3>Experience</h3>
             <div>
                 <h4>
-                    Data Engineering Intern
+                    Software Engineer I
                 </h4>
                 <h5>
-                    H-E-B • Austin, TX
+                    H-E-B • Austin, TX • June 2021 &ndash; Present
                 </h5>
                 <p>
-                    At H-E-B, I worked on the Data Engineering team to create a microservice REST API in Python to help
-                    support data pipeline workflows. The tech stack I used included a Python client library and backend
-                    API,
-                    a React frontend, and a Postgres database.
-                </p>
-                <p>
-                    June 2020 &ndash; August 2020
-                </p>
-            </div>
-
-            <div>
-                <h4>
-                    Student Technician
-                </h4>
-                <h5>
-                    University of Texas Dell Medical School • Austin, TX • Part-time
-                </h5>
-                <p>
-                    At Dell Medical School, I worked as a technician helping to roll out virtual reality and other
-                    emerging
-                    technologies in their classrooms. I helped research, assess, and showcase VR and touchscreen
-                    applications for classroom use, and contributed to the exploration and research into various
-                    technologies and applications for integration into the medical curriculum.
-                </p>
-                <p>
-                    November 2019 &ndash; May 2020
-                </p>
-            </div>
-
-            <div>
-                <h4>
-                    Engineering Instructor
-                </h4>
-                <h5>
-                    Hello World • Austin, TX • Contract
-                </h5>
-                <p>
-                    At Hello World, I worked as an instructor on three, one-week long courses teaching computer science
-                    and
-                    engineering fundamentals to K12 students. Responsibilities included leading classroom lessons and
-                    activities, tutoring students through their lesson plan, and helping contribute to curriculum with
-                    fellow instructors.
-                </p>
-                <p>
-                    July 2018, June 2019
+                    At H-E-B, I am building out microservices that support our data pipelines. We are utilizing Python
+                    for the back-end REST APIs, PostgreSQL for the database, React as our front-end library, deploying
+                    to AWS using Gitlab CI, and using Kubernetes for orchestration.
                 </p>
             </div>
         </div>
@@ -125,26 +92,24 @@
                     University of Texas at Austin
                 </h4>
                 <h5>
-                    Master of Science in Information Technology and Management
+                    M.S. Information Technology and Management
                 </h5>
-                <p>
-                    July 2019 &ndash; May 2021
-                </p>
-            </div>
-            <div>
-                <h4>
-                    University of Texas at Austin
-                </h4>
                 <h5>
-                    Bachelor of Science in Arts and Entertainment Technologies
+                    July 2019 &ndash; May 2021
                 </h5>
                 <ul>
-                    <li>Graduated with High Honors</li>
+                    <li>GPA: 3.89</li>
+                </ul>
+                <h5>
+                    B.S. Arts and Entertainment Technologies, with High Honors
+                </h5>
+                <h5>
+                    August 2016 &ndash; May 2020
+                </h5>
+                <ul>
+                    <li>GPA: 3.89</li>
                     <li>Elements of Computing Certificate</li>
                 </ul>
-                <p>
-                    August 2016 &ndash; May 2020
-                </p>
             </div>
         </div>
     </section>
@@ -156,13 +121,14 @@
                 <ul>
                     <li>Python</li>
                     <li>SQL</li>
-                    <li>C#</li>
-                    <li>JavaScript</li>
-                    <li>Linux</li>
-                    <li>Docker</li>
-                    <li>Git</li>
                     <li>AWS</li>
+                    <li>Git</li>
                     <li>React.js</li>
+                    <li>JavaScript</li>
+                    <li>Linux / Bash</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>C#</li>
                     <li>Unity</li>
                 </ul>
             </div>
@@ -170,7 +136,14 @@
     </section>
 
     <footer class="footer">
-        <p class="footer__text">Web Design and Development by Malik Ouda • 2021</p>
+
+        <p class="footer__text">
+            <small>Web Design and Development by Malik Ouda • 2022 • <a
+                    href="https://github.com/malikouda/malikouda.github.io" target="_blank" rel="noreferrer"
+                    class=" link link--light">Source</a>
+            </small>
+        </p>
+
     </footer>
 
     <script src='bundled.js'></script>

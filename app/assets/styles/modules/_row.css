@@ -10,12 +10,17 @@
   }
 
   @mixin atSmall {
-    &__medium-4 {
+    &__small-4 {
       float: left;
       width: 33.33%;
     }
 
-    &__medium-8 {
+    &__small-6 {
+      float: left;
+      width: 50%;
+    }
+
+    &__small-8 {
       float: left;
       width: 66.66%;
     }
