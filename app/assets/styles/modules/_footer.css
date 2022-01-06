@@ -1,5 +1,5 @@
 .footer {
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
   &__text {
     text-align: center;
   }
