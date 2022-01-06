@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background-color: $dark;
+  background: $dark;
 }
 
 .body--dark {
