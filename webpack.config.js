@@ -1,6 +1,6 @@
 const currentTask = process.env.npm_lifecycle_event;
 const path = require('path');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const RemovePlugin = require('remove-files-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -89,7 +89,17 @@ if (currentTask === 'build') {
     minimizer: ['...', new CssMinimizerPlugin()],
   };
   config.plugins.push(
-    new CleanWebpackPlugin(),
+    new RemovePlugin({
+      before: {
+        test: [
+          {
+            folder: './docs',
+            method: () => true,
+          },
+        ],
+        exclude: ['./docs/CNAME'],
+      },
+    }),
     new MiniCssExtractPlugin({filename: 'styles.[chunkhash].css'}),
     new RunAfterCompile(),
   );
