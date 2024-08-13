@@ -1,9 +1,0 @@
-.link {
-  &--light {
-    color: $light;
-  }
-
-  &__icon {
-    margin-right: .5rem;
-  }
-}

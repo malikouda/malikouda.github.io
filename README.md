@@ -1,2 +1,2 @@
-# Malik Ouda
-My personal about website.
+# malikouda.github.io
+My personal website.
